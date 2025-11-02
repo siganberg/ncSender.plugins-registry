@@ -1,0 +1,50 @@
+[
+  {
+    "id": "com.ncsender.autodustboot",
+    "name": "AutoDustboot",
+    "author": "Francis Marasigan",
+    "description": "Automatically retracts dust boot during tool changes.",
+    "category": "utility",
+    "version": "0.1.2",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-autodustboot/main/icon.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-autodustboot",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-autodustboot/releases",
+    "minAppVersion": "0.3.0"
+  },
+  {
+    "id": "com.ncsender.rapidchangeatc",
+    "name": "Rapid Change ATC",
+    "author": "Francis Marasigan",
+    "description": "Automatic tool changer support for Rapid Change ATC system.",
+    "category": "tool-changer",
+    "version": "0.1.12",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-rapidchangeatc/main/icon.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-rapidchangeatc",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-rapidchangeatc/releases",
+    "minAppVersion": "0.3.0"
+  },
+  {
+    "id": "com.ncsender.rapidchangesolo",
+    "name": "Rapid Change Solo",
+    "author": "Francis Marasigan",
+    "description": "Manual tool change assistance for Rapid Change Solo system.",
+    "category": "tool-changer",
+    "version": "0.1.1",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-rapidchangesolo/main/icon.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-rapidchangesolo",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-rapidchangesolo/releases",
+    "minAppVersion": "0.3.0"
+  },
+  {
+    "id": "com.ncsender.toolbench",
+    "name": "ToolBench",
+    "author": "Francis Marasigan",
+    "description": "G-code generator for surfacing, jointing, and boring operations.",
+    "category": "gcode-generator",
+    "version": "0.1.9",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-toolbench/main/icon.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-toolbench",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-toolbench/releases",
+    "minAppVersion": "0.3.0"
+  }
+]
