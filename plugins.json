@@ -18,7 +18,7 @@
     "description": "Automatic tool changer support for Rapid Change ATC system.",
     "category": "tool-changer",
     "version": "0.1.12",
-    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-rapidchangeatc/main/icon.png",
+    "iconUrl": "https://github.com/siganberg/ncsender-plugin-rapidchangeatc/blob/main/logo.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-rapidchangeatc",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-rapidchangeatc/releases",
     "minAppVersion": "0.3.0"
@@ -30,7 +30,7 @@
     "description": "Manual tool change assistance for Rapid Change Solo system.",
     "category": "tool-changer",
     "version": "0.1.1",
-    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-rapidchangesolo/main/icon.png",
+    "iconUrl": "https://github.com/siganberg/ncsender-plugin-rapidchangesolo/blob/main/logo.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-rapidchangesolo",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-rapidchangesolo/releases",
     "minAppVersion": "0.3.0"
