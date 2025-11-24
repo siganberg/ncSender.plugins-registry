@@ -46,17 +46,5 @@
     "repository": "https://github.com/siganberg/ncsender-plugin-toolbench",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-toolbench/releases",
     "minAppVersion": "0.3.0"
-  },
-  {
-    "id": "com.ncsender.toolinventory",
-    "name": "Tool Inventory",
-    "author": "ncSender",
-    "description": "Track and manage your CNC tool inventory with add/edit/delete operations",
-    "category": "utility",
-    "version": "0.1.0",
-    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-toolinventory/main/logo.png",
-    "repository": "https://github.com/siganberg/ncsender-plugin-toolinventory",
-    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-toolinventory/releases",
-    "minAppVersion": "0.3.42"
   }
 ]
