@@ -46,5 +46,17 @@
     "repository": "https://github.com/siganberg/ncsender-plugin-toolbench",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-toolbench/releases",
     "minAppVersion": "0.3.0"
+  },
+  {
+    "id": "com.ncsender.boxjoints",
+    "name": "BoxJoints",
+    "author": "Francis Marasigan",
+    "description": "G-code generator for box joint (finger joint) operations for CNC woodworking.",
+    "category": "gcode-generator",
+    "version": "0.1.0",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-boxjoints/main/logo.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-boxjoints",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-boxjoints/releases",
+    "minAppVersion": "0.3.19"
   }
 ]
