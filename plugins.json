@@ -58,5 +58,17 @@
     "repository": "https://github.com/siganberg/ncsender-plugin-boxjoints",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-boxjoints/releases",
     "minAppVersion": "0.3.19"
+  },
+  {
+    "id": "com.ncsender.replicator",
+    "name": "Replicator",
+    "author": "Francis Marasigan",
+    "description": "Replicate loaded G-code program in a grid pattern for batch production.",
+    "category": "gcode-generator",
+    "version": "0.1.0",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-replicator/main/logo.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-replicator",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-replicator/releases",
+    "minAppVersion": "0.3.104"
   }
 ]
