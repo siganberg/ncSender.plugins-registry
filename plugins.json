@@ -24,16 +24,16 @@
     "minAppVersion": "0.3.0"
   },
   {
-    "id": "com.ncsender.rapidchangesolo",
-    "name": "Rapid Change Solo",
+    "id": "com.ncsender.manualtoolchange",
+    "name": "Manual Tool Changer",
     "author": "Francis Marasigan",
-    "description": "Manual tool change assistance for Rapid Change Solo system.",
+    "description": "Manual tool change workflow with Tool Length Setter (TLS) support.",
     "category": "tool-changer",
-    "version": "0.1.1",
-    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-rapidchangesolo/main/logo.png",
-    "repository": "https://github.com/siganberg/ncsender-plugin-rapidchangesolo",
-    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-rapidchangesolo/releases",
-    "minAppVersion": "0.3.0"
+    "version": "0.1.19",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-manualtoolchanger/main/logo.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-manualtoolchanger",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-manualtoolchanger/releases",
+    "minAppVersion": "0.3.111"
   },
   {
     "id": "com.ncsender.toolbench",
