@@ -94,5 +94,17 @@
     "repository": "https://github.com/cotepat/ncsender-plugin-fusion360-tool-importer",
     "releaseUrl": "https://github.com/cotepat/ncsender-plugin-fusion360-tool-importer/releases",
     "minAppVersion": "0.3.131"
+  },
+  {
+    "id": "com.ncsender.wireless-pendant",
+    "name": "Wireless Pendant Flasher",
+    "author": "ncSender",
+    "description": "Flash ncSender wireless pendant firmware via USB or OTA",
+    "category": "utility",
+    "version": "0.1.0",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-wirelesspendant/main/logo.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-wirelesspendant",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-wirelesspendant/releases",
+    "minAppVersion": "0.3.151"
   }
 ]
