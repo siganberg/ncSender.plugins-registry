@@ -9,7 +9,11 @@
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-autodustboot/main/icon.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-autodustboot",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-autodustboot/releases",
-    "minAppVersion": "0.3.0"
+    "minAppVersion": "0.3.0",
+    "platforms": {
+      "v1": "0.3.0",
+      "pro-v1": "0.3.0"
+    }
   },
   {
     "id": "com.ncsender.rapidchangeatc",
@@ -21,7 +25,12 @@
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-rapidchangeatc/main/logo.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-rapidchangeatc",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-rapidchangeatc/releases",
-    "minAppVersion": "0.3.0"
+    "minAppVersion": "0.3.0",
+    "platforms": {
+      "v1": "0.3.0",
+      "pro-v1": "0.3.0",
+      "pro-v2": "2.0.0"
+    }
   },
   {
     "id": "com.ncsender.manualtoolchange",
@@ -33,7 +42,11 @@
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-manualtoolchanger/main/logo.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-manualtoolchanger",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-manualtoolchanger/releases",
-    "minAppVersion": "0.3.111"
+    "minAppVersion": "0.3.111",
+    "platforms": {
+      "v1": "0.3.111",
+      "pro-v1": "0.3.111"
+    }
   },
   {
     "id": "com.ncsender.toolbench",
@@ -45,7 +58,11 @@
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-toolbench/main/icon.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-toolbench",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-toolbench/releases",
-    "minAppVersion": "0.3.0"
+    "minAppVersion": "0.3.0",
+    "platforms": {
+      "v1": "0.3.0",
+      "pro-v1": "0.3.0"
+    }
   },
   {
     "id": "com.ncsender.boxjoints",
@@ -57,7 +74,11 @@
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-boxjoints/main/logo.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-boxjoints",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-boxjoints/releases",
-    "minAppVersion": "0.3.19"
+    "minAppVersion": "0.3.19",
+    "platforms": {
+      "v1": "0.3.19",
+      "pro-v1": "0.3.19"
+    }
   },
   {
     "id": "com.ncsender.replicator",
@@ -69,7 +90,11 @@
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-replicator/main/logo.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-replicator",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-replicator/releases",
-    "minAppVersion": "0.3.105"
+    "minAppVersion": "0.3.105",
+    "platforms": {
+      "v1": "0.3.105",
+      "pro-v1": "0.3.105"
+    }
   },
   {
     "id": "com.ncsender.dynamic-tool-slot-mapper",
@@ -81,7 +106,11 @@
     "iconUrl": "https://raw.githubusercontent.com/cotepat/ncsender-plugin-dynamic-tool-slot-mapper/master/logo.png",
     "repository": "https://github.com/cotepat/ncsender-plugin-dynamic-tool-slot-mapper",
     "releaseUrl": "https://github.com/cotepat/ncsender-plugin-dynamic-tool-slot-mapper/releases",
-    "minAppVersion": "0.3.131"
+    "minAppVersion": "0.3.131",
+    "platforms": {
+      "v1": "0.3.131",
+      "pro-v1": "0.3.131"
+    }
   },
   {
     "id": "com.ncsender.fusion360-import",
@@ -93,7 +122,11 @@
     "iconUrl": "https://raw.githubusercontent.com/cotepat/ncsender-plugin-fusion360-tool-importer/main/logo.png",
     "repository": "https://github.com/cotepat/ncsender-plugin-fusion360-tool-importer",
     "releaseUrl": "https://github.com/cotepat/ncsender-plugin-fusion360-tool-importer/releases",
-    "minAppVersion": "0.3.131"
+    "minAppVersion": "0.3.131",
+    "platforms": {
+      "v1": "0.3.131",
+      "pro-v1": "0.3.131"
+    }
   },
   {
     "id": "com.ncsender.wireless-pendant",
@@ -105,6 +138,10 @@
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-wirelesspendant/main/logo.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-wirelesspendant",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-wirelesspendant/releases",
-    "minAppVersion": "0.3.151"
+    "minAppVersion": "0.3.151",
+    "platforms": {
+      "v1": "0.3.151",
+      "pro-v1": "0.3.151"
+    }
   }
 ]
