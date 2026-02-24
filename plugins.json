@@ -38,14 +38,15 @@
     "author": "Francis Marasigan",
     "description": "Manual tool change workflow with Tool Length Setter (TLS) support.",
     "category": "tool-changer",
-    "version": "0.1.19",
+    "version": "0.1.31",
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-manualtoolchanger/main/logo.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-manualtoolchanger",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-manualtoolchanger/releases",
     "minAppVersion": "0.3.111",
     "platforms": {
       "v1": "0.3.111",
-      "pro-v1": "0.3.111"
+      "pro-v1": "0.3.111",
+      "pro-v2": "2.0.0"
     }
   },
   {
