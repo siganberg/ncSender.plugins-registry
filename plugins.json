@@ -87,14 +87,15 @@
     "author": "Francis Marasigan",
     "description": "Replicate loaded G-code program in a grid pattern for batch production.",
     "category": "gcode-generator",
-    "version": "0.1.0",
+    "version": "0.1.9",
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-replicator/main/logo.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-replicator",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-replicator/releases",
-    "minAppVersion": "0.3.105",
+    "minAppVersion": "0.3.111",
     "platforms": {
-      "v1": "0.3.105",
-      "pro-v1": "0.3.105"
+      "v1": "0.3.106",
+      "pro-v1": "0.3.106",
+      "pro-v2": "2.0.0"
     }
   },
   {
