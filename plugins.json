@@ -117,6 +117,21 @@
     }
   },
   {
+    "id": "com.ncsender.edgealign",
+    "name": "Edge Align",
+    "author": "Francis Marasigan",
+    "description": "Material alignment by edge probing — measure the angle of rotation and apply XY compensation to your G-code.",
+    "category": "gcode-generator",
+    "version": "0.1.0",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncSender.plugins.edge-align/main/logo.png",
+    "repository": "https://github.com/siganberg/ncSender.plugins.edge-align",
+    "releaseUrl": "https://github.com/siganberg/ncSender.plugins.edge-align/releases",
+    "minAppVersion": "2.0.0",
+    "platforms": {
+      "pro-v2": "2.0.0"
+    }
+  },
+  {
     "id": "com.ncsender.dynamic-tool-slot-mapper",
     "name": "Dynamic Tool Slot Mapper",
     "author": "cotepat",
