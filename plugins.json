@@ -162,14 +162,14 @@
       "v1": "0.3.131",
       "pro-v1": "0.3.131"
     }
-  }
-    {
+  },
+{
       "id": "com.cncdocs.gcode-reference",
       "name": "G-code & grblHAL Reference",
       "author": "stmoha",
       "description": "Inline G-code, M-code and grblHAL settings documentation. Type ?keyword in the Console to look up commands, ??<line> to explain a line word by word, or browse the full reference from the Tools menu.",
       "category": "utility",
-      "version": "1.15.0",
+      "version": "1.15.1",
       "iconUrl": "https://raw.githubusercontent.com/stmoha/ncsender-plugin-gcode-reference/main/icon.png",
       "repository": "https://github.com/stmoha/ncsender-plugin-gcode-reference",
       "releaseUrl": "https://github.com/stmoha/ncsender-plugin-gcode-reference/releases",
