@@ -163,21 +163,38 @@
       "pro-v1": "0.3.131"
     }
   },
-{
-      "id": "com.cncdocs.gcode-reference",
-      "name": "G-code & grblHAL Reference",
-      "author": "stmoha",
-      "description": "Inline G-code, M-code and grblHAL settings documentation. Type ?keyword in the Console to look up commands, ??<line> to explain a line word by word, or browse the full reference from the Tools menu.",
-      "category": "utility",
-      "version": "1.15.1",
-      "iconUrl": "https://raw.githubusercontent.com/stmoha/ncsender-plugin-gcode-reference/main/icon.png",
-      "repository": "https://github.com/stmoha/ncsender-plugin-gcode-reference",
-      "releaseUrl": "https://github.com/stmoha/ncsender-plugin-gcode-reference/releases",
-      "minAppVersion": "0.3.111",
-      "platforms": {
-        "v1": "0.3.111",
-        "pro-v1": "0.3.111",
-        "pro-v2": "2.0.0"
-      }
+  {
+    "id": "com.cncdocs.gcode-reference",
+    "name": "G-code & grblHAL Reference",
+    "author": "stmoha",
+    "description": "Inline G-code, M-code and grblHAL settings documentation. Type ?keyword in the Console to look up commands, ??<line> to explain a line word by word, or browse the full reference from the Tools menu.",
+    "category": "utility",
+    "version": "1.15.1",
+    "iconUrl": "https://raw.githubusercontent.com/stmoha/ncsender-plugin-gcode-reference/main/icon.png",
+    "repository": "https://github.com/stmoha/ncsender-plugin-gcode-reference",
+    "releaseUrl": "https://github.com/stmoha/ncsender-plugin-gcode-reference/releases",
+    "minAppVersion": "0.3.111",
+    "platforms": {
+      "v1": "0.3.111",
+      "pro-v1": "0.3.111",
+      "pro-v2": "2.0.0"
     }
+  },
+  {
+    "id": "com.ncsender.pendant",
+    "name": "Pendant",
+    "author": "Francis Marasigan",
+    "description": "Wireless pendant activation and firmware updates.",
+    "category": "utility",
+    "version": "0.1.0",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-pendant/main/icon.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-pendant",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-pendant/releases",
+    "minAppVersion": "0.3.0",
+    "platforms": {
+      "v1": "0.3.0",
+      "pro-v1": "0.3.0",
+      "pro-v2": "2.0.0"
+    }
+  }
 ]
