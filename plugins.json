@@ -181,6 +181,21 @@
     }
   },
   {
+    "id": "com.ncsender.pneumaticatc",
+    "name": "Pneumatic ATC (Beta)",
+    "author": "Francis Marasigan",
+    "description": "Pneumatic automatic tool changer workflow. Uses a single aux output to clamp/unclamp the collet. Beta — for testing only.",
+    "category": "tool-changer",
+    "version": "0.1.0",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-pneumaticatc/main/logo.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-pneumaticatc",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-pneumaticatc/releases",
+    "minAppVersion": "2.0.0",
+    "platforms": {
+      "pro-v2": "2.0.0"
+    }
+  },
+  {
     "id": "com.ncsender.pendant",
     "name": "Pendant",
     "author": "Francis Marasigan",
