@@ -137,14 +137,13 @@
     "author": "cotepat",
     "description": "Just-in-time tool slot mapping for unlimited tool libraries with limited magazine capacity.",
     "category": "utility",
-    "version": "1.0.0",
+    "version": "2.1.2",
     "iconUrl": "https://raw.githubusercontent.com/cotepat/ncsender-plugin-dynamic-tool-slot-mapper/master/logo.png",
     "repository": "https://github.com/cotepat/ncsender-plugin-dynamic-tool-slot-mapper",
     "releaseUrl": "https://github.com/cotepat/ncsender-plugin-dynamic-tool-slot-mapper/releases",
-    "minAppVersion": "0.3.131",
+    "minAppVersion": "2.0.37",
     "platforms": {
-      "v1": "0.3.131",
-      "pro-v1": "0.3.131"
+      "pro-v2": "2.0.88"
     }
   },
   {
@@ -153,14 +152,13 @@
     "author": "cotepat",
     "description": "Import tool libraries from Fusion 360 (JSON exports or clipboard).",
     "category": "utility",
-    "version": "2.2.0",
+    "version": "3.0.0",
     "iconUrl": "https://raw.githubusercontent.com/cotepat/ncsender-plugin-fusion360-tool-importer/main/logo.png",
     "repository": "https://github.com/cotepat/ncsender-plugin-fusion360-tool-importer",
     "releaseUrl": "https://github.com/cotepat/ncsender-plugin-fusion360-tool-importer/releases",
-    "minAppVersion": "0.3.131",
+    "minAppVersion": "2.0.0",
     "platforms": {
-      "v1": "0.3.131",
-      "pro-v1": "0.3.131"
+      "pro-v2": "2.0.0"
     }
   },
   {
