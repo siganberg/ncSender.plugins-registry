@@ -211,6 +211,23 @@
     }
   },
   {
+    "id": "com.ncsender.rgbled",
+    "name": "RGB LED (Beta)",
+    "author": "Francis Marasigan",
+    "description": "Wireless RGB LED accessory — the strip mirrors the app's machine status (green while running, red on alarm, fireworks on job complete). Beta — for testing only.",
+    "category": "utility",
+    "version": "0.1.0-beta",
+    "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-rgbled/main/icon.png",
+    "repository": "https://github.com/siganberg/ncsender-plugin-rgbled",
+    "releaseUrl": "https://github.com/siganberg/ncsender-plugin-rgbled/releases",
+    "minAppVersion": "0.3.111",
+    "platforms": {
+      "v1": "0.3.111",
+      "pro-v1": "0.3.111",
+      "pro-v2": "2.0.0"
+    }
+  },
+  {
     "id": "com.ncsender.quickcut",
     "name": "QuickCut",
     "author": "Francis Marasigan",
