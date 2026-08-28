@@ -17,6 +17,21 @@
     }
   },
   {
+    "id": "com.ncsender.dustdocker-dustboot",
+    "name": "Dust Docker Dust Boot",
+    "author": "slgreen22",
+    "description": "Automatically docks and retrieves a mechanical CNC dust boot around M6 tool changes.",
+    "category": "utility",
+    "version": "1.3.0",
+    "iconUrl": "https://raw.githubusercontent.com/slgreen22/ncsender-plugin-dustdocker-dustboot/v1.3.0/icon.png",
+    "repository": "https://github.com/slgreen22/ncsender-plugin-dustdocker-dustboot",
+    "releaseUrl": "https://github.com/slgreen22/ncsender-plugin-dustdocker-dustboot/releases/tag/v1.3.0",
+    "minAppVersion": "2.0.97",
+    "platforms": {
+      "pro-v2": "2.0.97"
+    }
+  },
+  {
     "id": "com.ncsender.rapidchangeatc",
     "name": "Rapid Change ATC",
     "author": "Francis Marasigan",
