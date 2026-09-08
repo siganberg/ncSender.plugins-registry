@@ -242,22 +242,6 @@
       "pro-v2": "2.0.0"
     }
   },
-{
-  "id": "com.sparkstech.wledstatus",
-  "name": "WLED Status Light",
-  "author": "Sparks-Tech (Jesse Sparks",
-  "description": "Mirrors CNC machine status to a WLED-based RGB LED controller",
-  "category": "utility",
-  "version": "1.0.11",
-  "iconUrl": "https://github.com/SparksTech-ca/ncsender-plugin-wledstatus/main/icon.png",
-  "repository": "https://github.com/SparksTech-ca/ncsender-plugin-wledstatus",
-  "releaseUrl": "https://github.com/SparksTech-ca/ncsender-plugin-wledstatus/releases",
-  "minAppVersion": "2.0.88",
-  "platforms": {
-    "v2": "2.0.88",
-    "pro-v2": "2.0.149"
-  }
-},
   {
     "id": "com.ncsender.quickcut",
     "name": "QuickCut",
@@ -272,5 +256,22 @@
     "platforms": {
       "pro-v2": "2.0.149"
     }
-  }
+  },
+  {
+  "id": "com.sparkstech.wledstatus",
+  "name": "WLED Status Light",
+  "author": "Sparks-Tech",
+  "description": "Mirrors CNC machine status to a WLED-based RGB LED controller",
+  "category": "utility",
+  "version": "1.0.11",
+  "iconUrl": "https://raw.githubusercontent.com/SparksTech-ca/ncsender-plugin-wledstatus/main/icon.png",
+  "repository": "https://github.com/SparksTech-ca/ncsender-plugin-wledstatus",
+  "releaseUrl": "https://github.com/SparksTech-ca/ncsender-plugin-wledstatus/releases",
+  "minAppVersion": "2.0.88",
+  "platforms": {
+      "v1": "0.3.111",
+      "pro-v1": "0.3.111",
+      "pro-v2": "2.0.0"
+    }
+  },
 ]
