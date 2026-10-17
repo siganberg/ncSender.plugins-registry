@@ -22,10 +22,10 @@
     "author": "slgreen22",
     "description": "Automatically docks and retrieves a mechanical CNC dust boot around M6 tool changes.",
     "category": "utility",
-    "version": "1.4.0",
-    "iconUrl": "https://raw.githubusercontent.com/slgreen22/ncsender-plugin-dustdocker-dustboot/v1.4.0/icon.png",
+    "version": "1.4.1",
+    "iconUrl": "https://raw.githubusercontent.com/slgreen22/ncsender-plugin-dustdocker-dustboot/v1.4.1/icon.png",
     "repository": "https://github.com/slgreen22/ncsender-plugin-dustdocker-dustboot",
-    "releaseUrl": "https://github.com/slgreen22/ncsender-plugin-dustdocker-dustboot/releases/tag/v1.4.0",
+    "releaseUrl": "https://github.com/slgreen22/ncsender-plugin-dustdocker-dustboot/releases/tag/v1.4.1",
     "minAppVersion": "2.0.176",
     "platforms": {
       "pro-v2": "2.0.176"
