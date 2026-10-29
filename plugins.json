@@ -259,14 +259,14 @@
   },
   {
     "id": "com.tmuka.zeroswapper",
-    "name": "Zero Swapper",
+    "name": "Spoilboard Toolbox",
     "author": "tmuka",
-    "description": "Set X0 Y0 on your spoilboard's dog holes, grid or listed holes from a map of the bed, and swap work Z0 between the spoilboard and the stock top with any measured tool, no re-probing. For grblHAL.",
+    "description": "Zero on your spoilboard's dog holes in two taps: jog near a hole and X0 Y0 snaps to it exactly, no probing or typed coordinates. Swap work Z0 between spoilboard and stock top for any measured tool without re-probing. Fit the grid to the real board by probe or by eye, then cut the dog holes, T-tracks, chamfers and labels, and drill bolt or flip-pin holes through stock, from the same grid. Formerly Zero Swapper. For grblHAL.",
     "category": "utility",
-    "version": "0.3.32",
-    "iconUrl": "https://raw.githubusercontent.com/tmuka/ncsender-plugin-zero-swapper/v0.3.32/icon.png",
-    "repository": "https://github.com/tmuka/ncsender-plugin-zero-swapper",
-    "releaseUrl": "https://github.com/tmuka/ncsender-plugin-zero-swapper/releases",
+    "version": "0.3.36",
+    "iconUrl": "https://raw.githubusercontent.com/tmuka/ncsender-plugin-spoilboard-toolbox/v0.3.36/icon.png",
+    "repository": "https://github.com/tmuka/ncsender-plugin-spoilboard-toolbox",
+    "releaseUrl": "https://github.com/tmuka/ncsender-plugin-spoilboard-toolbox/releases",
     "minAppVersion": "2.0.163",
     "platforms": {
       "pro-v2": "2.0.163"
