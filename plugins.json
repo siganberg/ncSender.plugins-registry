@@ -147,21 +147,6 @@
     }
   },
   {
-    "id": "com.ncsender.dynamic-tool-slot-mapper",
-    "name": "Dynamic Tool Slot Mapper",
-    "author": "cotepat",
-    "description": "Just-in-time tool slot mapping for unlimited tool libraries with limited magazine capacity.",
-    "category": "utility",
-    "version": "2.1.2",
-    "iconUrl": "https://raw.githubusercontent.com/cotepat/ncsender-plugin-dynamic-tool-slot-mapper/master/logo.png",
-    "repository": "https://github.com/cotepat/ncsender-plugin-dynamic-tool-slot-mapper",
-    "releaseUrl": "https://github.com/cotepat/ncsender-plugin-dynamic-tool-slot-mapper/releases",
-    "minAppVersion": "2.0.37",
-    "platforms": {
-      "pro-v2": "2.0.88"
-    }
-  },
-  {
     "id": "com.ncsender.fusion360-import",
     "name": "Fusion 360 Tool Library Import",
     "author": "cotepat",
@@ -278,7 +263,7 @@
     "author": "Francis Marasigan",
     "description": "Turn a STEP part into G-code with the tools in your Tool Library: finds the pockets, holes, steps and outline, sets speeds and feeds for the material, and previews the cut as material is removed. 2.5D parts cut from the top. Beta.",
     "category": "gcode-generator",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-nccam/main/logo.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-nccam",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-nccam/releases",
