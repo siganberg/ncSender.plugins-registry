@@ -272,5 +272,21 @@
       "v2": "2.0.88",
       "pro-v2": "2.0.149"
     }
+  },
+  {
+    "id": "com.cncdocs.rotary-cam",
+    "name": "Rotary CAM (Beta)",
+    "author": "stmoha",
+    "description": "Simultaneous 4th-axis CAM for a rotary parallel to X: open an STL or STEP part, rough it in spiral layers, finish it with a continuous ball-mill spiral around A, clean up under overhangs with indexed passes, and simulate it against the stock before loading the G-code. Uses your Tool Library; posts grblHAL G-code. Beta.",
+    "category": "gcode-generator",
+    "version": "0.11.1",
+    "iconUrl": "https://raw.githubusercontent.com/stmoha/ncsender-plugin-rotary-cam/main/icon.png",
+    "repository": "https://github.com/stmoha/ncsender-plugin-rotary-cam",
+    "releaseUrl": "https://github.com/stmoha/ncsender-plugin-rotary-cam/releases",
+    "minAppVersion": "2.0.88",
+    "platforms": {
+      "v2": "2.0.88",
+      "pro-v2": "2.0.149"
+    }
   }
 ]
