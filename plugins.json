@@ -274,13 +274,29 @@
     }
   },
   {
+    "id": "com.cncdocs.rotary-cam",
+    "name": "Rotary CAM (Beta)",
+    "author": "stmoha",
+    "description": "Simultaneous 4th-axis CAM for a rotary parallel to X: open an STL or STEP part, rough it in spiral layers, finish it with a continuous ball-mill spiral around A, clean up under overhangs with indexed passes, and simulate it against the stock before loading the G-code. Uses your Tool Library; posts grblHAL G-code. Beta.",
+    "category": "gcode-generator",
+    "version": "0.11.1",
+    "iconUrl": "https://raw.githubusercontent.com/stmoha/ncsender-plugin-rotary-cam/main/icon.png",
+    "repository": "https://github.com/stmoha/ncsender-plugin-rotary-cam",
+    "releaseUrl": "https://github.com/stmoha/ncsender-plugin-rotary-cam/releases",
+    "minAppVersion": "2.0.88",
+    "platforms": {
+      "v2": "2.0.88",
+      "pro-v2": "2.0.149"
+    }
+  },
+  {
     "id": "com.tmuka.gears",
     "name": "Gears",
     "author": "tmuka",
     "description": "Design spur gears, a rack and pinion or a ring gear, and cut them from ncSender: start from the center distance and ratio, watch them mesh, Generate. True involute teeth rounded at the root to fit your bit, backlash for wood and plastic, bores and lightening holes, holding tabs on tooth tips, and the frame's axle holes at the exact center distance. Inspired by Matthias Wandel's woodgears.ca.",
     "category": "gcode-generator",
-    "version": "0.3.0",
-    "iconUrl": "https://raw.githubusercontent.com/tmuka/ncsender-plugin-gears/v0.3.0/icon.png",
+    "version": "0.3.2",
+    "iconUrl": "https://raw.githubusercontent.com/tmuka/ncsender-plugin-gears/v0.3.2/icon.png",
     "repository": "https://github.com/tmuka/ncsender-plugin-gears",
     "releaseUrl": "https://github.com/tmuka/ncsender-plugin-gears/releases",
     "minAppVersion": "2.0.88",
