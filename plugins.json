@@ -152,11 +152,11 @@
     "author": "cotepat",
     "description": "Import tool libraries from Fusion 360 (JSON exports or clipboard).",
     "category": "utility",
-    "version": "3.0.0",
+    "version": "3.0.4",
     "iconUrl": "https://raw.githubusercontent.com/cotepat/ncsender-plugin-fusion360-tool-importer/main/logo.png",
     "repository": "https://github.com/cotepat/ncsender-plugin-fusion360-tool-importer",
     "releaseUrl": "https://github.com/cotepat/ncsender-plugin-fusion360-tool-importer/releases",
-    "minAppVersion": "2.0.0",
+    "minAppVersion": "2.0.173",
     "platforms": {
       "pro-v2": "2.0.0"
     }
