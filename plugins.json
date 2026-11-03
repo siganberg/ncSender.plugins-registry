@@ -304,5 +304,21 @@
       "v2": "2.0.88",
       "pro-v2": "2.0.149"
     }
+  },
+  {
+    "id": "com.tmuka.cnc-tutor",
+    "name": "CNC Tutor",
+    "author": "tmuka",
+    "description": "Learn your CNC one short lesson at a time, on your own machine: safety, X Y Z, homing, limits and alarms, jogging, work coordinates and zeroing, tool length, reading G-code, checking and air-cutting a program, bits, feeds and speeds, stepover, climb vs conventional, workholding, then the collet, touch plates, the tool length setter, tool changes and the ATC, and 3D probes. You try each step in ncSender and the tutor watches the machine and says what it saw; it never moves the machine or sends it anything. Students on a shared machine keep their own progress, with a class progress page. Follows ncSender's units, mm or inches.",
+    "category": "utility",
+    "version": "0.2.0",
+    "iconUrl": "https://raw.githubusercontent.com/tmuka/ncsender-plugin-cnc-tutor/v0.2.0/icon.png",
+    "repository": "https://github.com/tmuka/ncsender-plugin-cnc-tutor",
+    "releaseUrl": "https://github.com/tmuka/ncsender-plugin-cnc-tutor/releases",
+    "minAppVersion": "2.0.88",
+    "platforms": {
+      "v2": "2.0.88",
+      "pro-v2": "2.0.149"
+    }
   }
 ]
