@@ -320,5 +320,21 @@
       "v2": "2.0.225",
       "pro-v2": "2.0.316"
     }
+  },
+  {
+    "id": "com.tmuka.drag-knife",
+    "name": "Drag Knife (Beta)",
+    "author": "tmuka",
+    "description": "Turns the loaded program into one a drag knife cuts cleanly. The holder runs ahead of the blade tip by the blade offset and swings around corners so the tip turns in place, or hops and leads into sharp corners already lined up, with Auto keeping the lead-in slits off your parts. Cuts ramp in, closed shapes overcut and lift out, arcs stay arcs, and spindle starts are removed. A 3D preview of your program shows every hop and slit before you cut. Great with QuickCut shapes and ncCut2D SVG/DXF files. For Grbl, grblHAL and FluidNC. Beta.",
+    "category": "utility",
+    "version": "0.1.1",
+    "iconUrl": "https://raw.githubusercontent.com/tmuka/ncsender-plugin-dragknife/v0.1.1/icon.png",
+    "repository": "https://github.com/tmuka/ncsender-plugin-dragknife",
+    "releaseUrl": "https://github.com/tmuka/ncsender-plugin-dragknife/releases",
+    "minAppVersion": "2.0.88",
+    "platforms": {
+      "v2": "2.0.88",
+      "pro-v2": "2.0.149"
+    }
   }
 ]
