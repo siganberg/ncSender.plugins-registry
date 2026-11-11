@@ -311,7 +311,7 @@
     "author": "Francis Marasigan",
     "description": "For ncSender kiosks: syncs a folder of your Vaultix cloud drive with the file manager. Sign in (two-factor codes and app passwords work), pick a folder, and its G-code files appear on the machine; files made on the kiosk go back up. Beta.",
     "category": "utility",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "iconUrl": "https://raw.githubusercontent.com/siganberg/ncsender-plugin-vaultix/main/icon.png",
     "repository": "https://github.com/siganberg/ncsender-plugin-vaultix",
     "releaseUrl": "https://github.com/siganberg/ncsender-plugin-vaultix/releases",
