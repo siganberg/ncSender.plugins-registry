@@ -320,5 +320,21 @@
       "v2": "2.0.225",
       "pro-v2": "2.0.316"
     }
+  },
+  {
+    "id": "community.vacuum-gauge",
+    "name": "Vacuum Gauge",
+    "author": "Gedas-dev / Daryl",
+    "description": "Live vacuum-table pressure from a WiFi ESP32 gauge: a dial under Tools, an optional floating mini gauge, and a low-vacuum check that warns or feed-holds while a job runs.",
+    "category": "utility",
+    "version": "1.2.1",
+    "iconUrl": "https://raw.githubusercontent.com/Gedas-dev/ncsender-plugin-vacuum-gauge/main/plugin/icon.png",
+    "repository": "https://github.com/Gedas-dev/ncsender-plugin-vacuum-gauge",
+    "releaseUrl": "https://github.com/Gedas-dev/ncsender-plugin-vacuum-gauge/releases",
+    "minAppVersion": "2.0.225",
+    "platforms": {
+      "v2": "2.0.225",
+      "pro-v2": "2.0.316"
+    }
   }
 ]
