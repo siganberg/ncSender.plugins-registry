@@ -384,5 +384,21 @@
       "v2": "2.0.88",
       "pro-v2": "2.0.149"
     }
+  },
+  {
+    "id": "com.cncdocs.ha-switches",
+    "name": "HA Switches",
+    "author": "stmoha",
+    "description": "Switch Home Assistant devices (chiller, air assist, dust collector, lights, even the controller's power) from ncSender, with their live on/off state. Works with the controller off or a job paused. Optional hold-to-press and slow-device waits per switch. Needs the ha-ncsender Home Assistant integration v0.5.0+.",
+    "category": "utility",
+    "version": "0.1.9",
+    "iconUrl": "https://raw.githubusercontent.com/stmoha/ncsender-plugin-ha-switches/main/icon.png",
+    "repository": "https://github.com/stmoha/ncsender-plugin-ha-switches",
+    "releaseUrl": "https://github.com/stmoha/ncsender-plugin-ha-switches/releases",
+    "minAppVersion": "2.0.88",
+    "platforms": {
+      "v2": "2.0.88",
+      "pro-v2": "2.0.149"
+    }
   }
 ]
