@@ -1,0 +1,40 @@
+name: Update README plugin list
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'plugins.json'
+      - 'scripts/build-readme.py'
+      - '.github/workflows/build-readme.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-readme
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Regenerate the plugin list
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rebuild README.md from plugins.json
+        run: python3 scripts/build-readme.py
+
+      - name: Commit if it changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README.md is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README plugin list"
+          git push

@@ -1,0 +1,130 @@
+name: Validate plugins.json
+
+on:
+  pull_request:
+    paths:
+      - 'plugins.json'
+      - '.github/workflows/validate-plugins.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'plugins.json'
+
+jobs:
+  validate:
+    name: Schema + reachability
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Structural checks (schema, required fields, unique IDs)
+        run: |
+          set -euo pipefail
+          FILE=plugins.json
+
+          if ! jq empty "$FILE" >/dev/null 2>&1; then
+            echo "::error file=$FILE::plugins.json is not valid JSON"
+            exit 1
+          fi
+
+          TYPE=$(jq -r 'type' "$FILE")
+          if [ "$TYPE" != "array" ]; then
+            echo "::error file=$FILE::top-level value must be a JSON array"
+            exit 1
+          fi
+
+          COUNT=$(jq 'length' "$FILE")
+          echo "Found $COUNT entries."
+
+          REQUIRED=(id name author description category version iconUrl repository releaseUrl minAppVersion platforms)
+          VALID_CATEGORIES=(utility tool-changer gcode-generator)
+          VALID_PLATFORMS=(v1 v2 pro-v1 pro-v2)
+
+          fail=0
+          for i in $(seq 0 $((COUNT - 1))); do
+            entry=$(jq ".[$i]" "$FILE")
+            name=$(echo "$entry" | jq -r '.name // .id // "(unnamed)"')
+
+            for f in "${REQUIRED[@]}"; do
+              if [ "$(echo "$entry" | jq "has(\"$f\")")" != "true" ]; then
+                echo "::error file=$FILE::entry $i ($name): missing required field '$f'"
+                fail=1
+              fi
+            done
+
+            cat=$(echo "$entry" | jq -r '.category // empty')
+            if [ -n "$cat" ] && ! printf '%s\n' "${VALID_CATEGORIES[@]}" | grep -qx "$cat"; then
+              echo "::error file=$FILE::entry $i ($name): unknown category '$cat' (expected one of: ${VALID_CATEGORIES[*]})"
+              fail=1
+            fi
+
+            ver=$(echo "$entry" | jq -r '.version // empty')
+            if [ -n "$ver" ] && ! echo "$ver" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?$'; then
+              echo "::error file=$FILE::entry $i ($name): version '$ver' is not semver"
+              fail=1
+            fi
+
+            if [ "$(echo "$entry" | jq '.platforms | type')" = "object" ]; then
+              plat_keys=$(echo "$entry" | jq -r '.platforms | keys[]')
+              for k in $plat_keys; do
+                if ! printf '%s\n' "${VALID_PLATFORMS[@]}" | grep -qx "$k"; then
+                  echo "::warning file=$FILE::entry $i ($name): unknown platform key '$k' (known: ${VALID_PLATFORMS[*]})"
+                fi
+              done
+              if [ -z "$plat_keys" ]; then
+                echo "::error file=$FILE::entry $i ($name): platforms object is empty — list at least one supported platform"
+                fail=1
+              fi
+            elif [ "$(echo "$entry" | jq 'has("platforms")')" = "true" ]; then
+              echo "::error file=$FILE::entry $i ($name): platforms must be an object, e.g. {\"pro-v2\": \"2.0.0\"}"
+              fail=1
+            fi
+          done
+
+          dup_ids=$(jq -r '[.[] | .id] | group_by(.) | map(select(length > 1)) | .[][0]' "$FILE")
+          if [ -n "$dup_ids" ]; then
+            for id in $dup_ids; do
+              echo "::error file=$FILE::duplicate id: $id"
+            done
+            fail=1
+          fi
+
+          if [ "$fail" -ne 0 ]; then
+            echo ""
+            echo "Structural validation failed. See errors above."
+            exit 1
+          fi
+          echo "Structural validation passed."
+
+      - name: URL reachability (icon, repository, releaseUrl)
+        run: |
+          set -uo pipefail
+          FILE=plugins.json
+
+          declare -a URLS
+          while IFS= read -r line; do URLS+=("$line"); done < <(
+            jq -r '.[] | [.iconUrl, .repository, .releaseUrl] | .[]' "$FILE"
+          )
+
+          fail=0
+          for url in "${URLS[@]}"; do
+            [ -z "$url" ] && continue
+            code=$(curl -s -o /dev/null -w '%{http_code}' -L -A 'ncSender-registry-ci' --max-time 15 "$url" || echo "000")
+            if [ "$code" = "200" ] || [ "$code" = "301" ] || [ "$code" = "302" ]; then
+              echo "  ok  $code  $url"
+            else
+              echo "::warning::URL returned HTTP $code — $url"
+              fail=$((fail + 1))
+            fi
+          done
+
+          if [ "$fail" -gt 0 ]; then
+            echo ""
+            echo "$fail URL(s) did not respond with 2xx/3xx. This is a warning; a maintainer will follow up."
+          fi
