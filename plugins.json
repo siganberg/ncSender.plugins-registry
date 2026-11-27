@@ -415,5 +415,21 @@
       "v2": "2.0.88",
       "pro-v2": "2.0.149"
     }
+  },
+  {
+    "id": "com.community.shellydustextractor",
+    "name": "Shelly Dust & Vacuum",
+    "author": "Gedas-dev",
+    "description": "Switches a dust extractor and a vacuum pump through Shelly relays (Gen2 or newer) on the local network: the extractor follows the spindle, the pump is switched by hand, and each can have an On / Off switch on the main screen that shows when it runs.",
+    "category": "utility",
+    "version": "0.3.2",
+    "iconUrl": "https://raw.githubusercontent.com/Gedas-dev/ncsender-plugin-shelly-dust-vacuum/main/plugin/icon.png",
+    "repository": "https://github.com/Gedas-dev/ncsender-plugin-shelly-dust-vacuum",
+    "releaseUrl": "https://github.com/Gedas-dev/ncsender-plugin-shelly-dust-vacuum/releases",
+    "minAppVersion": "2.0.225",
+    "platforms": {
+      "v2": "2.0.225",
+      "pro-v2": "2.0.316"
+    }
   }
 ]
