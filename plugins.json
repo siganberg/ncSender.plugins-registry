@@ -400,5 +400,21 @@
       "v2": "2.0.88",
       "pro-v2": "2.0.149"
     }
+  },
+  {
+    "id": "com.tmuka.folding-box",
+    "name": "Folding Box Maker (Beta)",
+    "author": "tmuka",
+    "description": "Custom-sized cardboard and paper boxes, drawn flat and cut with a pen, laser, drag knife or end mill. Give the inside or outside size and the material: regular slotted, half slotted and full overlap cartons, trays with or without a lid, tuck end cartons, a mailer, snap-lock bottoms, a pillow box and dividers. Folds are marked, creased, scored, dashed, lined or grooved; nets nest by their outlines to save stock; Auto sheet size checks the machine travel. Lettering, hand holes, windows, tear strips, a calibration strip and a 3D preview that folds the box. For Grbl, grblHAL and FluidNC. Beta.",
+    "category": "gcode-generator",
+    "version": "0.1.0-beta.2",
+    "iconUrl": "https://raw.githubusercontent.com/tmuka/ncsender-plugin-folding-box/v0.1.0-beta.2/icon.png",
+    "repository": "https://github.com/tmuka/ncsender-plugin-folding-box",
+    "releaseUrl": "https://github.com/tmuka/ncsender-plugin-folding-box/releases",
+    "minAppVersion": "2.0.88",
+    "platforms": {
+      "v2": "2.0.88",
+      "pro-v2": "2.0.149"
+    }
   }
 ]
