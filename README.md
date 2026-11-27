@@ -19,7 +19,7 @@ show up in the same place when the author publishes a new release.
 ## Available plugins
 
 <!-- plugins:start -->
-27 plugins. This list is generated from [`plugins.json`](./plugins.json); do not edit it by hand.
+26 plugins. This list is generated from [`plugins.json`](./plugins.json); do not edit it by hand.
 
 ### Tool changers
 
@@ -139,14 +139,6 @@ Replicate loaded G-code program in a grid pattern for batch production.
 <b><a href="https://github.com/stmoha/ncsender-plugin-rotary-cam">Rotary CAM (Beta)</a></b><br>
 <sub>by stmoha · Community and Pro · <a href="https://github.com/stmoha/ncsender-plugin-rotary-cam/releases">releases</a></sub><br>
 Simultaneous 4th-axis CAM for a rotary parallel to X: open an STL or STEP part, rough it in spiral layers, finish it with a continuous ball-mill spiral around A, clean up under overhangs with indexed passes, and simulate it against the stock before loading the G-code. Uses your Tool Library; posts grblHAL G-code. Beta.
-</td>
-</tr>
-<tr>
-<td width="72" align="center" valign="top"><a href="https://github.com/siganberg/ncsender-plugin-toolbench"><img src="https://raw.githubusercontent.com/siganberg/ncsender-plugin-toolbench/main/icon.png" width="56" height="56" alt=""></a></td>
-<td>
-<b><a href="https://github.com/siganberg/ncsender-plugin-toolbench">ToolBench</a></b><br>
-<sub>by Francis Marasigan · Community and Pro · <a href="https://github.com/siganberg/ncsender-plugin-toolbench/releases">releases</a></sub><br>
-G-code generator for surfacing, jointing, and boring operations.
 </td>
 </tr>
 </table>
