@@ -400,5 +400,21 @@
       "v2": "2.0.88",
       "pro-v2": "2.0.149"
     }
+  },
+  {
+    "id": "com.tmuka.carved-box",
+    "name": "Carved Box",
+    "author": "tmuka",
+    "description": "Carve a box with a lid from one board: round, rectangle, many-sided, oval, heart, or your own shape from an SVG or DXF drawing. The base and the lid are pocketed side by side, a lip on one half slides into the other with a set clearance, and the outlines are cut free with tabs. Guided Setup asks a few questions and sets it all up. Compartments (a grid or wedges) carved into the base, magnet holes, a finger notch, edge chamfers or roundovers, rounded floor corners, a glued-on floor or drop-in lid, a Test Fit coupon, nested sets, and the lid from its own board with matching grain. Starting feeds from your bit and material, mm or inches.",
+    "category": "gcode-generator",
+    "version": "0.5.1",
+    "iconUrl": "https://raw.githubusercontent.com/tmuka/ncsender-plugin-carved-box/v0.5.1/icon.png",
+    "repository": "https://github.com/tmuka/ncsender-plugin-carved-box",
+    "releaseUrl": "https://github.com/tmuka/ncsender-plugin-carved-box/releases",
+    "minAppVersion": "2.0.88",
+    "platforms": {
+      "v2": "2.0.88",
+      "pro-v2": "2.0.149"
+    }
   }
 ]
